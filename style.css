@@ -1,0 +1,48 @@
+header { 
+font-size: 32px;
+margin: -10px;
+padding: 20px;
+color: black;
+
+}
+body {
+
+background: white;
+margin: 0px;
+ font-family: "Roboto", sans-serif;
+  font-weight: 300;
+font-style: normal;
+margin-bottom: 100px;
+}
+.principal{
+    background: #13293d;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    margin-right: 5%;
+    color:white;
+    font-size: 20px;
+}
+img{
+    height: 250px;
+}
+.videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.recomendacoes{
+    padding-left:20px;
+    padding-right:20px;
+    margin-top: 50px;
+}
+.recomendacoes img {
+opacity: 1;
+}
+.recomendacoes img:hover {
+    opacity: 0.5;
+    border: 2px solid #13293d;
+}
